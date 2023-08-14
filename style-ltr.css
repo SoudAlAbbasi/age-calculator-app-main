@@ -13,3 +13,50 @@
     margin: 0;
     padding: 0;
 }
+body {
+  background: var(--Off-white);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main.container {
+  background: var(--White);
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 30px 90px 30px;
+  padding: 20px;
+}
+form#age-calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.number-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+img.submit {
+  background-color: var(--Purple);
+  border: none;
+  width: 100%;
+  border-radius: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+.number-input {
+  margin: 0 20px;
+}
+
+.number-input input {
+  width: 100px; 
+  border: 1px var(--Light-grey) solid;
+  border-radius: 5px;
+}
